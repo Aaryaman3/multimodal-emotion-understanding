@@ -24,7 +24,7 @@ A second pipeline (Pipeline B) pre-extracts and caches CLIP features to enable f
 
 <table>
 <tr>
-<td width="50%">
+<td width="33%">
 
 **Temporal Analysis**
 
@@ -33,7 +33,7 @@ A second pipeline (Pipeline B) pre-extracts and caches CLIP features to enable f
 *Frame-level predictions over time demonstrating temporal consistency.*
 
 </td>
-<td width="50%">
+<td width="33%">
 
 **UMAP Embedding Space**
 
@@ -42,24 +42,13 @@ A second pipeline (Pipeline B) pre-extracts and caches CLIP features to enable f
 *Learned emotion embeddings in 2D space after contrastive pretraining.*
 
 </td>
-</tr>
-<tr>
-<td width="50%">
+<td width="33%">
 
 **PCA Analysis**
 
-![PCA Validation](outputs/visualizations/pca_validation_analysis.png)
+![PCA Analysis](outputs/visualizations/pca_comprehensive_analysis.png)
 
-*Principal component analysis of validation set embeddings.*
-
-</td>
-<td width="50%">
-
-**PCA Comprehensive**
-
-![PCA Comprehensive](outputs/visualizations/pca_comprehensive_analysis.png)
-
-*Full PCA analysis showing variance explained by components.*
+*Principal component analysis showing variance explained by embedding dimensions.*
 
 </td>
 </tr>
