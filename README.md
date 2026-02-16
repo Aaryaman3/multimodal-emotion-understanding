@@ -26,15 +26,6 @@ A second pipeline (Pipeline B) pre-extracts and caches CLIP features to enable f
 <tr>
 <td width="50%">
 
-**Valence-Arousal Space**
-
-![2D Valence-Arousal Space](outputs/visualizations/2d_valence_arousal_space.png)
-
-*Predicted vs. ground-truth valence/arousal distributions showing model calibration.*
-
-</td>
-<td width="50%">
-
 **Temporal Analysis**
 
 ![Temporal Analysis](outputs/visualizations/temporal_analysis.png)
@@ -42,8 +33,6 @@ A second pipeline (Pipeline B) pre-extracts and caches CLIP features to enable f
 *Frame-level predictions over time demonstrating temporal consistency.*
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 **UMAP Embedding Space**
@@ -53,6 +42,8 @@ A second pipeline (Pipeline B) pre-extracts and caches CLIP features to enable f
 *Learned emotion embeddings in 2D space after contrastive pretraining.*
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 **PCA Analysis**
@@ -60,6 +51,15 @@ A second pipeline (Pipeline B) pre-extracts and caches CLIP features to enable f
 ![PCA Validation](outputs/visualizations/pca_validation_analysis.png)
 
 *Principal component analysis of validation set embeddings.*
+
+</td>
+<td width="50%">
+
+**PCA Comprehensive**
+
+![PCA Comprehensive](outputs/visualizations/pca_comprehensive_analysis.png)
+
+*Full PCA analysis showing variance explained by components.*
 
 </td>
 </tr>
